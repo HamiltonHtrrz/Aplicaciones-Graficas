@@ -1,0 +1,40 @@
+:root{
+    --primario: #470e64;
+    --secundario: #803159;
+    --blanco: #ffffff;
+}
+
+html {
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--primario);
+    font-family: 'Source Serif Pro', serif;
+
+}
+
+.titulo span{
+font-size: 2rem;
+}
+
+.contenedor{
+    width: 120rem;
+ 
+    margin: 0 auto;
+}
+.nav-bg{
+    background-color: var(--primario);
+}
+.navegacion-principal{
+    background-color: var(--secundario);
+}
+
+.navegacion-principal a{
+    color: var(--blanco);
+}
